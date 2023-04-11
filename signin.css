@@ -1,0 +1,107 @@
+.card{
+    background-color: white;
+    width: 30vw;
+    height: 50vh;
+    padding: 30px;
+    border-radius: 7px;
+    border: 2px solid black;
+    
+        
+
+}
+.card-header{
+    text-align: center;
+    background-color: #0984E3;
+    height: 5vh;
+    
+    color: white;
+    margin-bottom:2vh ;
+}
+.form-control{
+   
+    display: block;
+    width: 29vw;
+    height: 5vh;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    margin-top: 5vh;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0984E3;
+    border: none;
+    color: #FFFFFF;
+    width: 30vw;
+    height: 5vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+  
+.container{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .forget-password{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+.forget-password:hover{
+    color: #0069d9;
+}
+.card-body{
+    align-items: flex-end;
+    position: relative;
+    width: 35vw;
+}
+.label{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.register-now{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0984E3;
+    border: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.register-now:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+}  
+.signup-section{
+    margin-top: 7vh;
+    
+}
+ 

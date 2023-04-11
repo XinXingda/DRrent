@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dr Rent</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="Home">
+    <div class="swiper">
+ 
+  <div class="swiper-wrapper">
+  
+    <div class="swiper-slide"><img src="Images/BEAU_winter_Wardian.jpg" alt="error"></div>
+    <div class="swiper-slide"><img src="Images/hotel-elegant.jpg"></div>
+    <div class="swiper-slide"><img src="Images/room.jpg"></div>
+  
+  </div>
+ 
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-scrollbar"></div>
+</div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#Home" class="nav-items">Home</a></li>
+        <li><a href="#Featured" class="nav-items">Featured</a></li>
+        <li><a href="about.html" class="nav-items">About</a></li>
+        <li><a href="signin.html"  class="nav-items" id="signIn">SignIn</a></li>
+      </ul>
+    </nav>
+    <div class="search-panel">
+      <h3>GET YOUR SPACES</h3>
+      <ul class="search-list">
+        <li><button class="btn" id="apartment" onclick="Funcapartment()">Apartment</button></li>
+        <li><button class="btn" id="room">Room</button></li>
+        <li><button class="btn" id="hall">Hall</button></li>
+        <!--<li><button class="btn">Building</button></li>
+        <li><button class="btn">Building</button></li>-->
+      </ul>
+    </div>
+    <div class="search-bar">
+      <input class="search-bar-input" id="search-value" type="text"  placeholder="Enter Your Location">
+    <button class="search-btn" onclick="SearchFilter()">Search</button>
+      <select class="price-range" name="PriceRange">
+        <option value>Price Range</option>
+        <option value="0-10000">0-10000</option>
+        <option value="0-10000">0-10000</option>
+        <option value="0-10000">0-10000</option>
+        <option value="0-10000">0-10000</option>
+        <option value="0-10000">0-10000</option>
+      </select>
+    </div>
+    </section>
+    <section id="Featured">
+     <div class="featured-spaces">
+      <h4>FEATURED SPACES</h4>
+     </div>
+     <div class="posts-box">
+      <div class="posts" onclick="PostPage()" id="2bhk-room" title="2BHK - Apartment" price="NPR 1000" location="Kathmandu"><img src="Images/room.jpg"  class="post-img"><p class="post caption"></p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+      <div class="posts" onclick="PostPage()"><img src="Images/room.webp" class="post-img"><p class="post caption">2BHK - Room</p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+      <div class="posts" onclick="PostPage()"><img src="Images/hotel-elegant (1).jpg" class="post-img"><p class="post caption">2BHK - Room</p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+      <div class="posts" onclick="PostPage()"><img src="Images/room2.webp" class="post-img"><p class="post caption">2BHK - Room</p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+      <div class="posts" onclick="PostPage()"><img src="Images/room.jpg" class="post-img"><p class="post caption">2BHK - Room</p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+      <div class="posts" onclick="PostPage()"><img src="Images/images.jpeg" class="post-img"><p class="post caption">2BHK - Room</p><p class="post location1">Kathmandu - Lalitpur</p><p class="post price">1000/Day</p></div>
+     </div>
+    </section>
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+
+</html>

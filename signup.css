@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup-container{
+   position: relative;
+    margin: auto;
+    width:30vw ;
+    height: 60vh;
+    margin-top: 5vh;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.registernow-header{
+    width: 30vw;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0984E3;
+    border: none;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.registernow-header p{
+    margin-top: 1.8vh;
+}
+.email-section{
+  padding-top: 5vh;
+  padding-left: 8px;
+}
+.password-section{
+    padding-top: 5vh;
+  padding-left: 8px;
+ 
+}
+.register-now{
+    margin-top: 10vh;
+    margin-left: 5vw;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0984E3;
+    border: none;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20vw;
+    height: 5vh;
+}.register-now:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.password-input{
+    width:25vw ;
+    height: 4vh;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.email-input{
+    width:25vw ;
+    height: 4vh;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;   
+}
+.password-confirm{
+    width:25vw ;
+    height: 4vh;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+}

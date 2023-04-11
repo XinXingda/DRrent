@@ -1,0 +1,242 @@
+
+html, body{  
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: bolder;
+  }
+  #Home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;    
+  }
+  .swiper {
+    width: 100vw;
+    height: 60vh;
+  }
+  .swiper-slide img{
+    width: 100%;
+    
+  }
+   .navbar{
+    position: absolute;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    background-color: transparent;
+    color: black;
+    justify-content: flex-end;
+    z-index : 10;
+  }
+  .nav-items{
+    font-weight: bolder;
+    padding: 8px;
+  }
+  
+  .navbar ul li{
+    display: inline;
+    align-items: flex-end;
+    padding: 12px;
+    margin-right: 40px;
+  
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    
+  }
+  .search-panel{
+    position: absolute;
+    display: flex;
+    margin: 60vh auto auto 2vw;
+  }
+  .search-panel h3{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    margin-top: 15px;
+  }
+  .search-list li{
+    display: inline;
+    padding: 20px;
+  }
+  .search-bar{
+    position: absolute;
+    margin: 73vh auto auto 2vw;
+    
+  }
+  .search-bar-input{
+    width: 30vw;
+  }
+  .price-range{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    margin: auto auto auto 8vw;
+}
+  #Featured{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+  }
+  
+  .navbar ul li :hover{
+    color: white;
+    font-weight: bolder;
+    background-color: #0984E3;
+    cursor: pointer;
+    border-radius:  5px 5px ;
+  }
+  
+  .featured-spaces{
+    position: absolute;
+    width: 40vw;
+    height: 8vh;
+    margin: 5vh auto auto 30vw;
+    background-color: #0984E3;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    border-radius: 7px;
+  }
+  .posts-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+  }
+  .posts{
+    width: 260px;
+    height: 280px;
+    background: transparent;
+    padding: 70px;
+    overflow: hidden;
+    color: black;
+  }
+ .post-img{
+  max-width: 100%;
+  height: auto;
+  text-decoration: none;
+  font-style: none
+ }
+ a{
+  text-decoration: none;
+ }
+ .posts a p{
+  text-decoration: none;
+ }
+ .post{
+  
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+ } 
+
+ .posts:hover{
+  border-radius: 7px;
+  background-color: #0984E3;
+  font-size: larger;
+ }
+ .post:hover{
+  color: white;
+ }
+ ::-webkit-scrollbar{
+	width: 8px;
+}
+ ::-webkit-scrollbar-thumb{
+	background: rgb(170, 170, 170);
+	border-radius: 20px;
+}
+ ::-webkit-scrollbar-thumb:hover{
+	background: rgb(96, 96, 96);
+}
+.search-list button{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0984E3;
+  border: none;
+  color: #FFFFFF;
+  width: 150px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.search-list button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.search-list button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  padding-right: 5px;
+  transition: 0.5s;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.search-list button:hover {
+  padding-right: 35px;
+}
+.search-list button:hover:after {
+  opacity: 1;
+  right: 0;
+}
+.search-bar-input{
+  width: 345px;
+  height: 35px;
+  border-radius: 7px;
+  outline: none;
+  color: #9DBFAF;
+}
+.search-bar-input{
+  color: black;
+}
+.search-btn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #0984E3;
+  background: #0984E3;
+  text-align: center;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 0.5vw;
+}
+
+.description-box{
+  width: 81vw;
+  position: absolute;
+  color: black;
+  
+  margin-top: 18vh;
+  padding: 132px;
+  text-align: center;
+}
+#apartment{
+  background-color: #0984E3 ;
+}
